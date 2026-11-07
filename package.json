@@ -1,12 +1,12 @@
 {
-  "name": "pocket-scrapbook",
+  "name": "pawper-keepsakes",
   "version": "1.0.0",
   "description": "A cute, private-by-default Chrome extension for saving web finds as pastel scrapbook cards.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "package": "tsc && vite build && tar.exe -a -c -f pocket-scrapbook.zip -C dist .",
+    "package": "tsc && vite build && tar.exe -a -c -f pawper-keepsakes.zip -C dist .",
     "test": "vitest run",
     "test:watch": "vitest",
     "preview": "vite preview"

@@ -16,7 +16,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.removeAll(() => {
     chrome.contextMenus.create({
       id: CONTEXT_MENU_ID,
-      title: 'Save image to Pocket Scrapbook ✿',
+      title: 'Save image to Pawper Keepsakes 🐾',
       contexts: ['image'],
     });
   });

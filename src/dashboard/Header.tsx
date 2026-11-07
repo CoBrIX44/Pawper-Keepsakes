@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({ cardCount, onNewScrap }) => {
                   letterSpacing: '-0.5px',
                 }}
               >
-                Pocket Scrapbook
+                Pawper Keepsakes
               </h1>
               <span
                 style={{

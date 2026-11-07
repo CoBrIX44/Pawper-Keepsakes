@@ -184,7 +184,7 @@ export const PopupApp: React.FC = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <CatMascot mode="paw" size={20} className="" />
           <span style={{ fontSize: '16px', fontWeight: 800, color: '#2D2825', letterSpacing: '-0.3px' }}>
-            Pocket Scrapbook
+            Pawper Keepsakes
           </span>
         </div>
         <button
