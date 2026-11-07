@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "package": "tsc && vite build && tar.exe -a -c -f pocket-scrapbook.zip -C dist .",
     "test": "vitest run",
     "test:watch": "vitest",
     "preview": "vite preview"
